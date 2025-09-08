@@ -1,0 +1,352 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+header ul{
+    background-color: #101446;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    
+}
+header ul li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    font-family: sans-serif, Arial;
+}
+header ul li a{
+    text-decoration: none;
+    color: #c4cc34;
+}
+ul li.right-icons{
+    float: right;
+
+}
+header ul span{
+    color: rgb(199, 227, 13);
+}
+
+.cover{
+    background-image: url(https://www.shutterstock.com/image-photo/clear-blue-sky-few-clouds-260nw-2488278533.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+.logo{
+    padding-left: 5%;
+}
+
+.icon img{
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,.15);
+    
+}
+nav{
+    width: 100%;
+    margin: 0;
+
+}
+nav ul{
+    background-color: #2980B9;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ul.menu-nav li{
+    float: left;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    font-weight: 600;   
+    letter-spacing: 1.2px;
+    font-size: 18px;
+}
+ul.menu-nav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 18px;
+    text-align: center;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1.2px;
+}
+ul.menu-nav li.right-menu-nav{
+    float: right;
+}
+ul.menu-nav li.right-menu-nav a{
+    background-color: #61CE70;
+    border-radius: 10px;
+    margin: 2px 30px;
+}
+.dropdownIcon{
+    display: none;
+}
+.slideshow-container{
+    display: block;
+    width: 100%;
+}
+.mySlides{
+    position: relative;
+    text-align: left;
+}
+.caption{
+    position: absolute;
+    top: 80%;
+}
+.caption p{
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-weight: 200;
+    letter-spacing: 1.2px;
+}
+
+/* ########## Actions ######## */
+header ul li a:hover{
+    color: #e1e5e9;
+    border: solid 10px #e1e5e9;
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.containers{
+    width: 100%;
+    margin: 0;
+    padding-top: 2%;
+}
+.video iframe{
+    margin:2px;
+    padding: 10px;
+}
+.obj-container{
+    background-color: #51c1d9;
+    color: #fff;
+    
+    text-align: center;
+    width: 100%;
+}
+.obj-container h1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+.main-objective, .specific-objective{
+    background-color: #0b3391;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.main-objective li, .specific-objective li{
+    list-style-type: square;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+.halafi-container{
+    background-color: #f4f7f7;
+    padding: 20px 0;
+    text-align: center;
+}
+.map iframe{
+    width: 100%;
+    display: block;
+}
+.container .col-4{
+    background:linear-gradient(rgb(237, 241, 241),rgb(231, 238, 237)) no-repeat;
+  height: 100vh;
+}
+.section-right{
+    padding: 0 10px;
+    
+    
+}
+.card h3{
+    
+    margin: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #4d1d07;
+    letter-spacing: 1.2px;
+}
+.section-left{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 10px;
+    margin-top: 0%;
+    border-right: solid 1px #ddd;
+    
+}
+.section-left h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.section-right h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+ article h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+ article p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.card{
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.15);
+    border-radius: 5px;
+    margin: 10px auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.bottom{
+    background-color: #0b3391;
+}
+.bottom p{
+    margin:0;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+
+}
+.footy{
+    background-color: #2980B9;
+    text-align: center;
+    width: 100%;
+}
+ footer p{
+    color: #fff;
+ }
+ footer ul{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+
+    margin: 0;
+ }
+ footer ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10px;
+    display: block;
+    margin: auto;
+    color: #f4f7f7;
+    
+ }
+/* ########## Media Query ######## */
+@media (max-width: 680px){
+    ul.menu-nav li:not(:nth-child(1)){
+        display: none;
+    }
+    ul.menu-nav li.dropdownIcon{
+        display: block;
+        float: right;
+        
+    }
+    ul.menu-nav li.dropdownIcon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    header ul{
+        display: none;
+    }
+    .cover{
+        width: 600px;
+    }
+    .logo img, .icon img{
+        width: 50%;
+        height: auto;
+    }
+    ul.menu-nav.responsive{
+        position: relative;
+    }
+    ul.menu-nav.responsive li{
+        display: inline;
+        float: none;
+    }
+    ul.menu-nav.responsive li a{
+        display: block;
+        text-align: left;
+        border-top: solid 1px #fff;
+    }
+    .col-8, .col-4, .col-6, .col-3{
+        width: 100%;
+        margin: 0;
+    }
+    .card{
+        display: block;
+        margin: 5px auto;
+        text-align: center;
+    }
+    .card img{
+        width: 90%;
+        margin: auto;
+    }
+    .section-right article{
+        padding-left: 20px;
+    }
+
+
+    
+}
